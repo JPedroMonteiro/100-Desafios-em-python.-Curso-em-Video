@@ -1,15 +1,15 @@
 #Desafio: Adivinhar qual número entre 0 a 5 o computador está pensando!
-#Eu ----------------------------------------------------->
-#from random import randint
-#num1 = randint(0,5)
-#print('Chute valores entre 0 e 5')
-#num2 = int(input('Chute: '))
-#if num1 == num2:
-#    print('Parabéns, mãe dina! Você acertou!')
-#else:
-#    print('Erroooooooou!')
-#print('Computador = {}'.format(num1))
-#print('Seu chute = {}'.format(num2))
+#Minha solução ----------------------------------------------------->
+from random import randint
+num1 = randint(0,5)
+print('Chute valores entre 0 e 5')
+num2 = int(input('Chute: '))
+if num1 == num2:
+    print('Parabéns, mãe dina! Você acertou!')
+else:
+    print('Erroooooooou!')
+print('Computador = {}'.format(num1))
+print('Seu chute = {}'.format(num2))
 
 #Guanabara ---------------------------------------------->
 #from random import randint

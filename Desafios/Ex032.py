@@ -1,8 +1,10 @@
 #Desafio: Verificar se o ano é bissexto.
-#Eu------------------------------------------------------>
-#ano = int(input('Digite o ano: '))
-#if (ano % 4 == 0 or ano % 400 == 0) and ano % 100 != 0:
-#    print('O ano {} é bissexto!'.format(ano))
+#Minha solução------------------------------------------------------>
+ano = int(input('Digite o ano: '))
+if (ano % 4 == 0 or ano % 400 == 0) and ano % 100 != 0:
+    print('O ano {} É bissexto!'.format(ano))
+else:
+    print('O ano {} NÃO é bissexto'.format(ano))
 
 #Guanabara----------------------------------------------->
 #from datetime import date

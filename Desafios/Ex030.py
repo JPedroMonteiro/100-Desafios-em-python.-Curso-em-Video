@@ -1,10 +1,10 @@
 #Desafio: Verificar se o valor inteiro e Par ou Impar
-#Eu------------------------------------------------------>
-#num = int(input('Digite um valor inteiro: '))
-#if num % 2 == 0:
-#    print('PAR!')
-#else:
-#    print('IMPAR!')
+#Minha solução------------------------------------------------------>
+num = int(input('Digite um valor inteiro: '))
+if num % 2 == 0:
+    print('PAR!')
+else:
+    print('IMPAR!')
 
 #Guanabara----------------------------------------------->
 #número = int(input('Me diga um número qualquer: '))
